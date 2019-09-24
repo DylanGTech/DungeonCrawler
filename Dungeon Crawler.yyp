@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "09e4ef01-ae04-44a2-9879-2d383505584d",
+            "Value": {
+                "id": "86cad39a-4e25-426f-8157-9e5a89679e78",
+                "resourcePath": "sprites\\enemy\\enemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0cd6a172-0678-4474-8daa-b264ccf88c9a",
             "Value": {
                 "id": "206c7ab8-a527-4f96-b32e-92e685e08f71",
@@ -164,6 +172,14 @@
                 "id": "bcd8596a-5087-464d-ac72-9d1387ef550a",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "c639157b-5e10-48d2-a2ec-e79ecf8234d9",
+            "Value": {
+                "id": "fdb649f5-c1d8-454a-9fac-8f12d5be9fb0",
+                "resourcePath": "objects\\enemy_move\\enemy_move.yy",
+                "resourceType": "GMObject"
             }
         },
         {
