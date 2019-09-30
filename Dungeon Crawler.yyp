@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0e68bfc6-fd24-4f02-ab96-c6b9f11fa662",
+            "Value": {
+                "id": "4c3848ee-d425-44bd-82ea-380baa352543",
+                "resourcePath": "sprites\\dungeon_tilemap\\dungeon_tilemap.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "438af053-669d-4606-abee-72a5dcf8724f",
             "Value": {
                 "id": "0f4ed0b4-d7d8-4f66-bca3-a3ff9ed21fd1",
@@ -84,6 +92,14 @@
                 "id": "b7e64d15-cc57-45a5-a8f4-64f0cb20046d",
                 "resourcePath": "views\\5ed59111-bc11-4212-8b4e-735158c2c764.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "65867e3c-6484-46de-86f7-e8a3af109456",
+            "Value": {
+                "id": "e370e8df-4aee-4bde-90fd-7b572672fb5a",
+                "resourcePath": "sprites\\gravel_background\\gravel_background.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -143,11 +159,27 @@
             }
         },
         {
+            "Key": "934d45ca-f0e9-4848-bcfe-99fbb165b28f",
+            "Value": {
+                "id": "6ac95147-c295-4d2a-900b-a79859f1492b",
+                "resourcePath": "tilesets\\dungeon_tileset\\dungeon_tileset.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "942109ea-da83-4e33-a7fb-5d051eaaa67f",
             "Value": {
                 "id": "3c34effb-15e7-48cf-b60c-8e3e571d523c",
                 "resourcePath": "views\\942109ea-da83-4e33-a7fb-5d051eaaa67f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9c6ef700-c20f-4e6d-b4bd-c7f998612389",
+            "Value": {
+                "id": "9e844ce9-8357-492f-b7f5-dbf5a391facc",
+                "resourcePath": "rooms\\r0\\r0.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
