@@ -202,7 +202,7 @@
             "Key": "9abae7d3-547d-4b2d-aab5-520e8e11eba1",
             "Value": {
                 "id": "fb229167-6aa0-4805-9c5d-f7f23bbe0f5b",
-                "resourcePath": "sprites\\sprite7\\sprite7.yy",
+                "resourcePath": "sprites\\arrow\\arrow.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -267,6 +267,14 @@
             "Value": {
                 "id": "815b5a41-684c-4ec5-b0ef-cad3afa6f492",
                 "resourcePath": "objects\\bow\\bow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e4d82374-cc42-48b8-b412-3a405157bcda",
+            "Value": {
+                "id": "b029fcf2-0c1e-40f7-b1a8-7bcecbcdd243",
+                "resourcePath": "objects\\menu\\menu.yy",
                 "resourceType": "GMObject"
             }
         },
