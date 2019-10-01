@@ -3,20 +3,26 @@
 
 if keyboard_check(ord("D"))
 {
-x=x+spd;
+	if(!script_execute(tilecollision, x + spd, y))
+		x = x + spd
 }
 
 if keyboard_check(ord("A"))
 {
-x=x-spd;
+	if(!script_execute(tilecollision, x - spd, y))
+		x = x - spd
 }
 
 if keyboard_check(ord("S"))
 {
-y=y+spd;
+	if(!script_execute(tilecollision, x, y + spd))
+		y = y + spd
 }
 
 if keyboard_check(ord("W"))
 {
-y=y-spd;
+	if(!script_execute(tilecollision, x, y - spd))
+		y = y - spd
 }
+
+

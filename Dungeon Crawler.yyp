@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "397ae96d-2b39-4a44-9b08-f2e2dae57e82",
+            "Value": {
+                "id": "baa9b96b-bcdd-47cc-b6b4-c82bbe932284",
+                "resourcePath": "scripts\\tilecollision\\tilecollision.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "49b1114a-7635-4b3c-8c2e-c9b2667b6268",
             "Value": {
                 "id": "9800275c-02cc-43c8-98dd-81fbdfa41440",
@@ -272,7 +280,7 @@
         }
     ],
     "script_order": [
-        
+        "397ae96d-2b39-4a44-9b08-f2e2dae57e82"
     ],
     "tutorial": ""
 }
