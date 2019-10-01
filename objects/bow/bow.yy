@@ -1,18 +1,18 @@
 {
-    "id": "bb810614-e9d0-4af6-800d-ca97007e3040",
+    "id": "e351b7d1-df90-4eca-86f9-265ed3cb44ff",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "PlayerMove",
+    "name": "bow",
     "eventList": [
         {
-            "id": "39a4f19d-6ae3-4378-9234-7615f2c69df3",
+            "id": "093bf90c-dd92-4948-a22c-0b1458176c10",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "bb810614-e9d0-4af6-800d-ca97007e3040"
+            "eventtype": 8,
+            "m_owner": "e351b7d1-df90-4eca-86f9-265ed3cb44ff"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "89b89436-a326-40da-bbf2-9e69e11ffa32",
+    "spriteId": "316baf19-3105-4ed3-aa13-d90040e722ed",
     "visible": true
 }

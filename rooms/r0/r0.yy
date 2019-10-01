@@ -7,14 +7,15 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-
+        "e89594d7-6329-4ad4-80f2-f17435c87490",
+        "771ffd9f-07e0-45f8-a265-bbdf96438649"
     ],
     "IsDnD": false,
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Instances",
-            "id": "699999ee-6f74-4102-9a10-28f4631eeaff",
+            "name": "Player",
+            "id": "2c547b6a-622e-40b7-bbad-702f7351fc0d",
             "depth": 0,
             "grid_x": 32,
             "grid_y": 32,
@@ -25,7 +26,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_12670713","id": "e89594d7-6329-4ad4-80f2-f17435c87490","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_12670713","objId": "bb810614-e9d0-4af6-800d-ca97007e3040","properties": null,"rotation": 0,"scaleX": 1.5,"scaleY": 1.5,"mvc": "1.1","x": 143.5,"y": 204},
+{"name": "inst_68FEDA9E","id": "771ffd9f-07e0-45f8-a265-bbdf96438649","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_68FEDA9E","objId": "c639157b-5e10-48d2-a2ec-e79ecf8234d9","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 896,"y": 640}
             ],
             "layers": [
 
@@ -103,7 +105,7 @@
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4294967295 },
-            "depth": 200,
+            "depth": 500,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -124,7 +126,7 @@
             "spriteId": "65867e3c-6484-46de-86f7-e8a3af109456",
             "stretch": false,
             "userdefined_animFPS": false,
-            "userdefined_depth": false,
+            "userdefined_depth": true,
             "visible": true,
             "vspeed": 0,
             "vtiled": true,

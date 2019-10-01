@@ -3,21 +3,20 @@
 
 if keyboard_check(ord("D"))
 {
-x=x+2;
+x=x+spd;
 }
 
 if keyboard_check(ord("A"))
 {
-x=x-2;
+x=x-spd;
 }
 
 if keyboard_check(ord("S"))
 {
-y=y+2;
+y=y+spd;
 }
 
 if keyboard_check(ord("W"))
 {
-y=y-2;
+y=y-spd;
 }
-

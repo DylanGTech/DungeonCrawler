@@ -1,19 +1,10 @@
 {
-    "id": "c639157b-5e10-48d2-a2ec-e79ecf8234d9",
+    "id": "057883ac-1795-4768-ab31-2102418aac5d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "enemy_move",
+    "name": "test",
     "eventList": [
-        {
-            "id": "91fded96-72ef-4ab7-a533-5154ffcd05d9",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "c639157b-5e10-48d2-a2ec-e79ecf8234d9"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "09e4ef01-ae04-44a2-9879-2d383505584d",
+    "spriteId": "add6ebd3-c10b-4b6d-baac-03c5ded1e32a",
     "visible": true
 }
