@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "1315ca4c-2a7b-4777-a6b2-4fa077997e91",
+            "Value": {
+                "id": "ec308f5e-f2e3-49d3-9a65-12133818aac6",
+                "resourcePath": "scripts\\createmap\\createmap.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "316baf19-3105-4ed3-aa13-d90040e722ed",
             "Value": {
                 "id": "08b089f0-493d-4274-9fe6-f953f4c60d1d",
@@ -76,14 +84,6 @@
                 "id": "e880e2bc-c092-4ba2-a9ff-f662c63b9405",
                 "resourcePath": "scripts\\tilecollision\\tilecollision.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "3e3e9bee-c609-4c2b-8e00-02de8e460976",
-            "Value": {
-                "id": "d5ad5120-e462-432e-bcd4-0e33fc35670f",
-                "resourcePath": "objects\\roomexit\\roomexit.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -207,14 +207,6 @@
             }
         },
         {
-            "Key": "9abae7d3-547d-4b2d-aab5-520e8e11eba1",
-            "Value": {
-                "id": "fb229167-6aa0-4805-9c5d-f7f23bbe0f5b",
-                "resourcePath": "sprites\\sprite7\\sprite7.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "9c6ef700-c20f-4e6d-b4bd-c7f998612389",
             "Value": {
                 "id": "9e844ce9-8357-492f-b7f5-dbf5a391facc",
@@ -304,7 +296,8 @@
         }
     ],
     "script_order": [
-        "397ae96d-2b39-4a44-9b08-f2e2dae57e82"
+        "397ae96d-2b39-4a44-9b08-f2e2dae57e82",
+        "1315ca4c-2a7b-4777-a6b2-4fa077997e91"
     ],
     "tutorial": ""
 }
