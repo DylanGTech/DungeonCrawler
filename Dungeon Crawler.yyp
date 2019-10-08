@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "3e3e9bee-c609-4c2b-8e00-02de8e460976",
+            "Value": {
+                "id": "d5ad5120-e462-432e-bcd4-0e33fc35670f",
+                "resourcePath": "objects\\roomexit\\roomexit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "49b1114a-7635-4b3c-8c2e-c9b2667b6268",
             "Value": {
                 "id": "9800275c-02cc-43c8-98dd-81fbdfa41440",
