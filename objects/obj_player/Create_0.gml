@@ -6,6 +6,6 @@ strength = 5;
 agility = 5;
 intellect = 5;
 spd = 2.5;
-
+currentHP = 100;
 //variable to control time inbetween attacks
 cooldown = 0;

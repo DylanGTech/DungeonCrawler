@@ -119,10 +119,26 @@
             }
         },
         {
+            "Key": "60d4ac4a-a360-4720-9f3c-d77e6a84fa47",
+            "Value": {
+                "id": "a77e7b1b-16c1-47aa-9997-4e099d5a9c7b",
+                "resourcePath": "sprites\\sprite8\\sprite8.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "65867e3c-6484-46de-86f7-e8a3af109456",
             "Value": {
                 "id": "e370e8df-4aee-4bde-90fd-7b572672fb5a",
                 "resourcePath": "sprites\\gravel_background\\gravel_background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6a27f53b-62db-4ccb-81cf-54167bd5f706",
+            "Value": {
+                "id": "f34ca107-6321-4d8b-ad64-4df157199444",
+                "resourcePath": "sprites\\arrow\\arrow.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -243,6 +259,14 @@
             "Value": {
                 "id": "fdb649f5-c1d8-454a-9fac-8f12d5be9fb0",
                 "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c9adfb27-c2a9-4dd4-8292-b544988e3379",
+            "Value": {
+                "id": "0a4be4ff-a278-4ca4-a691-335a93ffb4e5",
+                "resourcePath": "objects\\enemy_fireball\\enemy_fireball.yy",
                 "resourceType": "GMObject"
             }
         },

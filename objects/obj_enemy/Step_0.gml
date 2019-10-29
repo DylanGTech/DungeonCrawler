@@ -18,3 +18,14 @@ if (instance_exists(obj_player)){
 		y = y + sin(angle) * spd
 	}
 }
+
+if (cooldown < 1)
+{
+    instance_create_layer(x,y,"projectile",enemy_fireball);
+    cooldown = 15;
+}
+
+cooldown = cooldown - 1;
+if(currentHP <= 0){
+    instance_destroy();
+}
