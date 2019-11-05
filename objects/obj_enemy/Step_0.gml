@@ -27,5 +27,12 @@ if (cooldown < 1 && point_distance(x,y,obj_player.x, obj_player.y)<=256)
 
 cooldown = cooldown - 1;
 if(currentHP <= 0){
-    instance_destroy();
+	var lootDrop = random(100);
+	if(lootDrop == 0){
+		instance_create_layer(x, y, "Walls" , obj_enemy);
+	}
+	else if(lootDrop >= 50){
+		instance_create_layer(x, y, "Walls", obj_arrow);	
+	}
+	instance_destroy();
 }
