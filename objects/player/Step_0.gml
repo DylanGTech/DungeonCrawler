@@ -42,3 +42,19 @@ if(hInput != 0 or vInput != 0)
 }
 else
 	image_index = 0;
+	
+	
+	// Attack/Combat
+//cooldown works based off of frames, want to implement time functions
+//so it feels smoother
+if (mouse_check_button(mb_left)) && (cooldown < 1)
+{	
+	instance_create_layer(x,y,"projectile",obj_arrow);
+	cooldown = 35;
+}
+
+cooldown = cooldown - 1;
+
+if(currentHP <= 0){
+    instance_destroy();
+}

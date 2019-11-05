@@ -6,7 +6,10 @@ if (instance_exists(obj_player)){
 	//Wrote my own chase function to work with tile collisions
 	//move_towards_point(obj_player.x, obj_player.y, spd);
 	//script_execute(tilecollision, x + spd, y)
-	
+	if(global.pause){
+		exit;
+	}
+
 	var xdistance = obj_player.x - x
 	var ydistance = obj_player.y - y
 	
