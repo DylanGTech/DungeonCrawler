@@ -36,5 +36,10 @@ if (mouse_check_button(mb_left)) && (cooldown < 1)
 cooldown = cooldown - 1;
 
 if(currentHP <= 0){
+	game_close = true;
+	if (keyboard_check_pressed(vk_space))
+    {
+        game_end();
+    }
     instance_destroy();
 }
