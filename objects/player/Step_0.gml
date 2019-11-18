@@ -1,6 +1,6 @@
 if(global.pause)
 {
-	image_index = 0;
+	image_index = image_index;
 	exit;
 }
 
@@ -56,5 +56,6 @@ if (mouse_check_button(mb_left)) && (cooldown < 1)
 cooldown = cooldown - 1;
 
 if(currentHP <= 0){
+	instance_create_layer(0, 0, 0, obj_GameOver);
     instance_destroy();
 }

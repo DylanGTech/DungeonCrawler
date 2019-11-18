@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "07411e3d-3232-4b90-8f48-1a5a0e891d23",
+            "Value": {
+                "id": "52bbe640-66a7-42fa-a48c-47d9c4360a1e",
+                "resourcePath": "objects\\obj_GameOver\\obj_GameOver.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "09e4ef01-ae04-44a2-9879-2d383505584d",
             "Value": {
                 "id": "86cad39a-4e25-426f-8157-9e5a89679e78",
@@ -316,6 +324,14 @@
                 "id": "0a4be4ff-a278-4ca4-a691-335a93ffb4e5",
                 "resourcePath": "objects\\enemy_fireball\\enemy_fireball.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c9b2b4b9-14e5-4b7c-9e4c-8775850965f4",
+            "Value": {
+                "id": "751e0ba9-ea07-4c55-96a5-491fdd09a894",
+                "resourcePath": "fonts\\GameOver\\GameOver.yy",
+                "resourceType": "GMFont"
             }
         },
         {
