@@ -1,10 +1,7 @@
-//pause status for all 
-// place ' if(global.pause) exit; ' in all step fucntions of all moving obj
-global.pause = 0;
-
 //menues position variables
-menu_x = x;
-menu_y = y;
+menu_x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0])/2 - 100;
+menu_y = camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0])/2 - 50;
+
 button_h = 32;					//heaight of buttons
 button_w = 256;					//button width
 button_padding = 8;				//space between menu buttons
@@ -18,4 +15,4 @@ button[2] = "Skills";
 button[3] = "Save/Quit";
 
 //amount of buttons in array button (4)
-buttons = array_length_1d(button)
+buttons = array_length_1d(button);

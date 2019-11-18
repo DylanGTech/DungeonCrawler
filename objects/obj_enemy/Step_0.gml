@@ -1,6 +1,6 @@
 // do nothing when game paused
 if(global.pause){
-		exit;
+	exit;
 }
 
 

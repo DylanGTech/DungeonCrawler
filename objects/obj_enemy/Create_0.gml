@@ -1,3 +1,4 @@
+global.pause = 0;
 //stats
 currentHP = 50;
 vitality = 5;
