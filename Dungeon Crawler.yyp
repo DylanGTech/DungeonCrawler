@@ -89,9 +89,17 @@
         {
             "Key": "1315ca4c-2a7b-4777-a6b2-4fa077997e91",
             "Value": {
-                "id": "ec308f5e-f2e3-49d3-9a65-12133818aac6",
+                "id": "9e40b3d6-2b3d-4092-bf82-93b01aed3cd1",
                 "resourcePath": "scripts\\createmap\\createmap.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2104980d-e454-4cd5-9424-ecea99a20415",
+            "Value": {
+                "id": "54e3831c-d184-4f07-9d18-7035e0ce5a9d",
+                "resourcePath": "rooms\\r1\\r1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -140,6 +148,14 @@
                 "id": "66cf3b39-70bd-4d4c-bbbd-597053473180",
                 "resourcePath": "objects\\player\\player.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "44cd781e-8be6-4899-85c5-4c6fd2f3d2d8",
+            "Value": {
+                "id": "7b1b2caf-215e-420f-9137-167db42376e9",
+                "resourcePath": "rooms\\r_init\\r_init.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -348,6 +364,14 @@
                 "id": "91c4bb46-8c70-4b7a-b339-58be7f65ea11",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ccad5602-3eb1-4b16-9be4-06523a459288",
+            "Value": {
+                "id": "f49da310-0409-40a4-a9e4-7bc006f2af25",
+                "resourcePath": "objects\\startup_object\\startup_object.yy",
+                "resourceType": "GMObject"
             }
         },
         {
