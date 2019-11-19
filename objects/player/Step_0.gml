@@ -55,6 +55,26 @@ if (mouse_check_button(mb_left)) && (cooldown < 1)
 
 cooldown = cooldown - 1;
 
+if(mouse_check_button(mb_right)) && (cooldown2 < 1){
+	var Arrow = instance_create_layer(x,y,"projectile",object6)
+	for(var i = 0; i < 4; i++){
+		
+		var Arrow = instance_create_layer(x,y,"projectile",object6)
+		//Arrow.image_angle = i*3;
+		Arrow.direction += i + 3;
+	}
+	for(var i = 0; i < 4; i++){
+		
+		var Arrow = instance_create_layer(x,y,"projectile",object6)
+		//Arrow.image_angle = i*3;
+		Arrow.direction -= i - 3;
+	}
+	
+	cooldown2 = 100;
+	
+}
+cooldown2 = cooldown2 - 1;
+
 if(currentHP <= 0){
 	instance_create_layer(0, 0, 0, obj_GameOver);
     instance_destroy();
