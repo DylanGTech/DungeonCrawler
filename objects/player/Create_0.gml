@@ -16,3 +16,4 @@ spd = 2.5;
 currentHP = 100;
 //variable to control time inbetween attacks
 cooldown = 0;
+cooldown2 = 0;
