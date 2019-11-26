@@ -26,7 +26,7 @@ if (instance_exists(player)){
 if (cooldown < 1 && instance_exists(player))
 {
     instance_create_layer(x,y,"projectile",enemy_fireball);
-    cooldown = 15;
+    cooldown = 30;
 }
 
 cooldown = cooldown - 1;
@@ -37,6 +37,9 @@ if(currentHP <= 0){
 	}
 	else if(lootDrop >= 50){
 		instance_create_layer(x, y, "Walls", obj_arrow);	
+	}
+	if(lootDrop >= 2){
+		instance_create_layer(x, y, "Walls", bow);	
 	}
 	instance_destroy();
 }
