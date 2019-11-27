@@ -27,5 +27,5 @@ enum directionType {
 	right = 4
 }
 
-global.currentEntrance = directionType.down;
+global.currentEntrance = directionType.none;
 
