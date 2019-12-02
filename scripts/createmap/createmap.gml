@@ -8,7 +8,7 @@ for(i = 0; i < 64; i++)
 {
 	//if(random(1) == 1)
 	//{
-		global.rooms[floor(i / 8), i % 8] = floor(random(8));
+		global.rooms[floor(i / 8), i % 8] = floor(random(4));
 		global.roomclearance[floor(i / 8), i % 8] = false;
 	//}
 }

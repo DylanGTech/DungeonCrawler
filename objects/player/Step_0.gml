@@ -12,8 +12,8 @@ vInput = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 if(hInput != 0 or vInput != 0)
 {
 	dir = point_direction(0, 0, hInput, vInput);
-	movex = lengthdir_x(spd, dir);
-	movey = lengthdir_y(spd, dir);
+	movex = lengthdir_x(global.spd, dir);
+	movey = lengthdir_y(global.spd, dir);
 
 	// move palyer
 	if(!script_execute(tilecollision, x + movex, y, false))x += movex;
@@ -47,15 +47,15 @@ else
 	// Attack/Combat
 //cooldown works based off of frames, want to implement time functions
 //so it feels smoother
-if (mouse_check_button(mb_left)) && (cooldown < 1)
+if (mouse_check_button(mb_left)) && (global.cooldown < 1)
 {	
 	instance_create_layer(x,y,"projectile",obj_arrow);
-	cooldown = 35;
+	global.cooldown = 35;
 }
 
-cooldown = cooldown - 1;
+global.cooldown = global.cooldown - 1;
 
-if(mouse_check_button(mb_right)) && (cooldown2 < 1){
+if(mouse_check_button(mb_right)) && (global.cooldown2 < 1){
 	var Arrow = instance_create_layer(x,y,"projectile",object6)
 	for(var i = 0; i < 4; i++){
 		
@@ -70,7 +70,7 @@ if(mouse_check_button(mb_right)) && (cooldown2 < 1){
 		Arrow.direction -= i - 3;
 	}
 	
-	cooldown2 = 100;
+	global.cooldown2 = 100;
 	
 }
 
@@ -89,10 +89,6 @@ if(bbox_top < 0)
 			case 1:
 			case 2:
 			case 3:
-			case 4:
-			case 5:
-			case 6:
-			case 7:
 				newRoom = r1;
 				break;
 		}
@@ -114,10 +110,6 @@ if(bbox_left < 0)
 			case 1:
 			case 2:
 			case 3:
-			case 4:
-			case 5:
-			case 6:
-			case 7:
 				newRoom = r1;
 				break;
 		}
@@ -139,10 +131,6 @@ if(bbox_bottom > room_height)
 			case 1:
 			case 2:
 			case 3:
-			case 4:
-			case 5:
-			case 6:
-			case 7:
 				newRoom = r1;
 				break;
 		}
@@ -164,10 +152,6 @@ if(bbox_right > room_width)
 			case 1:
 			case 2:
 			case 3:
-			case 4:
-			case 5:
-			case 6:
-			case 7:
 				newRoom = r1;
 				break;
 		}
@@ -177,9 +161,9 @@ if(bbox_right > room_width)
 }
 
 
-cooldown2 = cooldown2 - 1;
+global.cooldown2 = global.cooldown2 - 1;
 
-if(currentHP <= 0){
+if(global.currentHP <= 0){
 	instance_create_layer(0, 0, 0, obj_GameOver);
     instance_destroy();
 }
