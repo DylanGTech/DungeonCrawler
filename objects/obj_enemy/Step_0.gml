@@ -31,15 +31,23 @@ if (cooldown < 1 && instance_exists(player))
 
 cooldown = cooldown - 1;
 if(currentHP <= 0){
-	var lootDrop = random(100);
+	var lootDrop = random(10);
 	if(lootDrop == 0){
 		instance_create_layer(x, y, "Walls" , obj_enemy);
 	}
-	else if(lootDrop >= 50){
-		instance_create_layer(x, y, "Walls", obj_arrow);	
-	}
-	if(lootDrop >= 2){
-		instance_create_layer(x, y, "Walls", bow);	
+	else if(lootDrop >= 3){
+		if(lootDrop >= 4){
+			instance_create_layer(x, y+15, "Walls", heart);	
+		}
+		if(lootDrop >= 5){
+			instance_create_layer(x, y, "Walls", bow);	
+		}
+		else if(lootDrop >= 6){
+			instance_create_layer(x,y, "Walls", sword);	
+		}
+		else if(lootDrop >= 7){
+			instance_create_layer(x,y, "Walls", sword);	
+		}
 	}
 	instance_destroy();
 }

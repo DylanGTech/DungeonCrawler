@@ -74,6 +74,13 @@ if(mouse_check_button(mb_right)) && (global.cooldown2 < 1){
 	
 }
 
+global.cooldown2 = global.cooldown2 - 1;
+
+if(global.currentHP <= 0){
+	instance_create_layer(0, 0, layer, obj_GameOver);
+    instance_destroy();
+}
+
 if(bbox_top < 0)
 {
 	if(global.currentRoomy > 0)
@@ -161,9 +168,4 @@ if(bbox_right > room_width)
 }
 
 
-global.cooldown2 = global.cooldown2 - 1;
 
-if(global.currentHP <= 0){
-	instance_create_layer(0, 0, 0, obj_GameOver);
-    instance_destroy();
-}
