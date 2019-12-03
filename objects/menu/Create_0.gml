@@ -10,7 +10,7 @@ last_selected = 0;				//menu index to be highlighted(selected)
 
 //menu buttons
 button[0] = "Help";
-button[1] = "Inventory";
+button[1] = "src File";
 button[2] = "Stats";
 button[3] = "Save/Quit";
 
