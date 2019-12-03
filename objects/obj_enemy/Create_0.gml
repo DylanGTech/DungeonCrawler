@@ -5,5 +5,5 @@ strength = 5;
 agility = 5;
 intellect = 5;
 spd = 1.25;
-cooldown = 0;
+//cooldown = 0;
 maxHP = 50;
