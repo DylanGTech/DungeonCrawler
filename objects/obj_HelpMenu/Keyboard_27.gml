@@ -1,2 +1,2 @@
 instance_destroy();
-global.menuePause =0;
+global.menuPause =0;
