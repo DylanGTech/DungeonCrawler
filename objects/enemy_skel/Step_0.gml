@@ -1,3 +1,5 @@
+/// @description Insert description here
+// You can write your code in this editor
 /// @description Function dictates movement of enemy when they are a ceratin distance from the player
 // You can write your code in this editor
 if(global.pause){
@@ -23,13 +25,13 @@ if (instance_exists(player)){
 }
 
 //if (cooldown < 1 && point_distance(x,y,player.x, player.y)<=256)
-//if (cooldown < 1 && instance_exists(player))
+if (cooldown < 1 && instance_exists(player))
 {
     instance_create_layer(x,y,"projectile",enemy_fireball);
-    //cooldown = 30;
+    cooldown = 30;
 }
 
-//cooldown = cooldown - 1;
+cooldown = cooldown - 1;
 if(currentHP <= 0){
 	var lootDrop = random(10);
 	if(lootDrop == 0){
@@ -39,7 +41,7 @@ if(currentHP <= 0){
 		if(lootDrop >= 4){
 			instance_create_layer(x, y+15, "Walls", heart);	
 		}
-		if(lootDrop >= 5.5){
+		if(lootDrop >= 5){
 			instance_create_layer(x, y, "Walls", bow);	
 		}
 		else if(lootDrop >= 6){
