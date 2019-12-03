@@ -9,9 +9,9 @@ menu_index = 0;					//which menu item is selected
 last_selected = 0;				//menu index to be highlighted(selected)
 
 //menu buttons
-button[0] = "Map";
-button[1] = "Inventory";
-button[2] = "Skills";
+button[0] = "Help";
+button[1] = "src File";
+button[2] = "Stats";
 button[3] = "Save/Quit";
 
 //amount of buttons in array button (4)
