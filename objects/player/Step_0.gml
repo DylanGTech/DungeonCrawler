@@ -15,9 +15,9 @@ if(hInput != 0 or vInput != 0)
 	movex = lengthdir_x(global.spd, dir);
 	movey = lengthdir_y(global.spd, dir);
 
-	// move palyer
-	if(!script_execute(tilecollision, x + movex, y, false))x += movex;
-	if(!script_execute(tilecollision, x, y + movey, false))y += movey;
+	// move player
+	if(!script_execute(tilecollision, x + movex, y, false) and not collision_rectangle(bbox_left + movex, bbox_top, bbox_right + movex, bbox_bottom, obj_blockage, false, true)) x += movex;
+	if(!script_execute(tilecollision, x, y + movey, false) and not collision_rectangle(bbox_left, bbox_top + movey, bbox_right, bbox_bottom + movey, obj_blockage, false, true))y += movey;
 	
 	// set sprite frame based on direction pointing
 	switch(dir)
@@ -94,9 +94,13 @@ if(bbox_top < 0)
 				newRoom = r0;
 				break;
 			case 1:
-			case 2:
-			case 3:
 				newRoom = r1;
+				break;
+			case 2:
+				newRoom = r2;
+				break;
+			case 3:
+				newRoom = r3;
 				break;
 		}
 		if(room == newRoom) room_restart();
@@ -115,9 +119,13 @@ if(bbox_left < 0)
 				newRoom = r0;
 				break;
 			case 1:
-			case 2:
-			case 3:
 				newRoom = r1;
+				break;
+			case 2:
+				newRoom = r2;
+				break;
+			case 3:
+				newRoom = r3;
 				break;
 		}
 		if(room == newRoom) room_restart();
@@ -136,9 +144,13 @@ if(bbox_bottom > room_height)
 				newRoom = r0;
 				break;
 			case 1:
-			case 2:
-			case 3:
 				newRoom = r1;
+				break;
+			case 2:
+				newRoom = r2;
+				break;
+			case 3:
+				newRoom = r3;
 				break;
 		}
 		if(room == newRoom) room_restart();
@@ -149,6 +161,8 @@ if(bbox_right > room_width)
 {
 	if(global.currentRoomx < 7)
 	{
+		global.
+		
 		global.currentRoomx++;
 		global.currentEntrance = directionType.left;
 		switch(global.rooms[global.currentRoomx, global.currentRoomy])
@@ -157,11 +171,16 @@ if(bbox_right > room_width)
 				newRoom = r0;
 				break;
 			case 1:
-			case 2:
-			case 3:
 				newRoom = r1;
 				break;
+			case 2:
+				newRoom = r2;
+				break;
+			case 3:
+				newRoom = r3;
+				break;
 		}
+		
 		if(room == newRoom) room_restart();
 		else room_goto(newRoom);
 	}
