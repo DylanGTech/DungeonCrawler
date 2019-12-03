@@ -39,7 +39,7 @@ if(currentHP <= 0){
 		if(lootDrop >= 4){
 			instance_create_layer(x, y+15, "Walls", heart);	
 		}
-		if(lootDrop >= 5){
+		if(lootDrop >= 5.5){
 			instance_create_layer(x, y, "Walls", bow);	
 		}
 		else if(lootDrop >= 6){

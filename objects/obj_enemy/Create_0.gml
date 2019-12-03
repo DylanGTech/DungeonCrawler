@@ -1,5 +1,5 @@
 global.pause = 0;
-currentHP = 20;
+currentHP = 50;
 vitality = 5;
 strength = 5;
 agility = 5;
