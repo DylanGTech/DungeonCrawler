@@ -10,6 +10,7 @@ switch(menu_index)
 		
 	case 1: //Inventory
 	//...show inventory
+		button[1] = "CLASSIFIED";
 		break;
 	
 	case 2: //stats
